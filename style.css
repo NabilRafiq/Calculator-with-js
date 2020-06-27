@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+input{
+    height: 50px;
+    width: 300px;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+button{
+    background-color: rgb(58, 60, 61);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    transition: 1s;
+    font-size: 20px;
+    padding: 10px;
+    outline: none!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+button:hover{
+   background-color: white;
+   color:black;
+}
+button:active{
+ border: none!important;
+ outline: none!important;
+ background-color: white;
+ color:black;
+}
+button:focus{
+    border: none!important;
+    background-color: white;
+    color:black;
+    outline: none!important;
+}
+button::-moz-focus-inner{
+    border: none!important;
+    background-color: white;
+    color:black;
+    outline: none!important;
+}
